@@ -1,7 +1,7 @@
 # Management-Information-System
 This is a management information system based on the SQL-server, which can connect to a remote SQL-server.
 
-First, modify the SQL-server specified in ***UI.py***. 
+First, modify the SQL-server specified in the ***UI.py***. 
 >cursor = DatabaseCursor(server='localhost', database='MyDatabase1', username='sa', password='123')
 
 1. The first parameter *server* is used to connect to a specific SQL-server.
@@ -17,4 +17,4 @@ Second, create accounts in SQL-server by adding records into a table named **Acc
 
 Then, this system can be used.
 
-You can create any table you like in your database. But the information in ***DatabaseTable.py*** should be maintained.
+You can create any table you like in your database. But the information in the ***DatabaseTable.py*** should be maintained.
