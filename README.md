@@ -16,3 +16,5 @@ Before using the system, we need to modify the password of default account ‘sa
 Second, create accounts in SQL-server by adding records into a table named **Account**.
 
 Then, this system can be used.
+
+You can create any table you like in your database. But the information in ***DatabaseTable.py*** should be maintained.
